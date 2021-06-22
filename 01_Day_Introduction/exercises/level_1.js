@@ -22,3 +22,6 @@ console.log(SliceString)
 //Slice out the phrase Days Of JavaScript from 30 Days Of JavaScript.
 let SlicePhrase = challenge.substr(2)
 console.log(SlicePhrase)
+
+//Check if the string contains a word Script using includes() method
+console.log(challenge.includes("script"))
