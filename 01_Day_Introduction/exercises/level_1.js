@@ -72,3 +72,6 @@ console.log(Sentence.search("because"))
 //se trim() to remove any trailing whitespace at the beginning and the end of a string.E.g ' 30 Days Of JavaScript '.
 let ChallengeSpace = " 30 Days Of Javascript "
 console.log(ChallengeSpace.trim())
+
+//Use startsWith() method with the string 30 Days Of JavaScript and make the result true
+console.log(challenge.startsWith("30"))
