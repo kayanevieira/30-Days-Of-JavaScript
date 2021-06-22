@@ -27,5 +27,9 @@ console.log(SlicePhrase)
 console.log(challenge.includes("script"))
 
 //Split the string into an array using split() method
-let SplitString = challenge.split([" "])
+let SplitString = challenge.split([])
 console.log(SplitString)
+
+//Split the string 30 Days Of JavaScript at the space using split() method
+let SplitStringSpace = challenge.split([" "])
+console.log(SplitStringSpace)
