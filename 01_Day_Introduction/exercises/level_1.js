@@ -42,3 +42,7 @@ console.log(array)
 //Change 30 Days Of JavaScript to 30 Days Of Python using replace() method.
 let StringReplace = challenge.replace("Javascript", "Python")
 console.log(StringReplace)
+
+//What is character at index 15 in '30 Days Of JavaScript' string? Use charAt() method.
+let CharString = challenge.charAt(15)
+console.log(CharString)
