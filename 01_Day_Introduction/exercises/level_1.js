@@ -58,3 +58,7 @@ console.log(StringIndexOf)
 //Use lastIndexOf to determine the position of the last occurrence of a in 30 Days Of JavaScript.
 let LastStringA = challenge.lastIndexOf("a")
 console.log(LastStringA)
+
+//Use indexOf to find the position of the first occurrence of the word because in the following sentence:'You cannot end a sentence with because because because is a conjunction'
+let Sentence = "You cannot end a sentence with because because is a conjunction"
+console.log(Sentence.indexOf("because"))
