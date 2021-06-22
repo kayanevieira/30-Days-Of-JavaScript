@@ -46,3 +46,7 @@ console.log(StringReplace)
 //What is character at index 15 in '30 Days Of JavaScript' string? Use charAt() method.
 let CharString = challenge.charAt(15)
 console.log(CharString)
+
+//What is the character code of J in '30 Days Of JavaScript' string using charCodeAt()
+let CharStrinfFind = challenge.charCodeAt("J")
+console.log(CharStrinfFind)
