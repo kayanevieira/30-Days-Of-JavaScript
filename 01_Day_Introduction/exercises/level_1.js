@@ -18,3 +18,7 @@ console.log(ShorterString)
 //Cut (slice) out the first word of the string using substr() or substring() method
 let SliceString = challenge.substr(1)
 console.log(SliceString)
+
+//Slice out the phrase Days Of JavaScript from 30 Days Of JavaScript.
+let SlicePhrase = challenge.substr(2)
+console.log(SlicePhrase)
