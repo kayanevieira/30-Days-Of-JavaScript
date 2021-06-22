@@ -38,3 +38,7 @@ console.log(SplitStringSpace)
 let platforms = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon"
 let array = (platforms.split(" "))
 console.log(array)
+
+//Change 30 Days Of JavaScript to 30 Days Of Python using replace() method.
+let StringReplace = challenge.replace("Javascript", "Python")
+console.log(StringReplace)
