@@ -54,3 +54,7 @@ console.log(CharStrinfFind)
 //Use indexOf to determine the position of the first occurrence of a in 30 Days Of JavaScript
 let StringIndexOf = challenge.indexOf("a")
 console.log(StringIndexOf)
+
+//Use lastIndexOf to determine the position of the last occurrence of a in 30 Days Of JavaScript.
+let LastStringA = challenge.lastIndexOf("a")
+console.log(LastStringA)
