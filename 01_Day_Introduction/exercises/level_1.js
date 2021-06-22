@@ -25,3 +25,7 @@ console.log(SlicePhrase)
 
 //Check if the string contains a word Script using includes() method
 console.log(challenge.includes("script"))
+
+//Split the string into an array using split() method
+let SplitString = challenge.split([" "])
+console.log(SplitString)
