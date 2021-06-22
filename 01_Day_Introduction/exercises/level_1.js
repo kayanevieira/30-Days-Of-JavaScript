@@ -9,3 +9,7 @@ console.log(challenge)
 //Print the length of the string on the browser console using console.log()
 
 console.log(challenge.length)
+
+//Change all the string characters to capital letters using toUpperCase() method
+var stringBigger = challenge.toUpperCase()
+console.log(stringBigger)
