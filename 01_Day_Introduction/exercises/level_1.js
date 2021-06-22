@@ -33,3 +33,8 @@ console.log(SplitString)
 //Split the string 30 Days Of JavaScript at the space using split() method
 let SplitStringSpace = challenge.split([" "])
 console.log(SplitStringSpace)
+
+//Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon' split the string at the comma and change it to an array.
+let platforms = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon"
+let array = (platforms.split(" "))
+console.log(array)
