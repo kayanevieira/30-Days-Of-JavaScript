@@ -80,13 +80,13 @@ console.log(challenge.startsWith("30"))
 console.log(challenge.endsWith('Javascript'))
 
 //Use match() method to find all the a’s in 30 Days Of JavaScript
-console.log(challenge.match('a'))
+console.log(challenge.match(/a/gi))
 
 //Use concat() and merge '30 Days of' and 'JavaScript' to a single string, '30 Days Of JavaScript'
 let firstSentence = "30 Days of "
 let secondSentence = "JavaScript"
 
-let result = firstSentence.concat(secondSentence)
+const result = firstSentence.concat(secondSentence)
 console.log(result)
 
 //Use repeat() method to print 30 Days Of JavaScript 2 times
