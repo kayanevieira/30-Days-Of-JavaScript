@@ -29,6 +29,9 @@ if (wordsTofind.includes('on')) {
     console.log('it doens\'t contains')
 }
 
+// 06- Generate a random number between 0 and 100 inclusively
+console.log(Math.floor(Math.random() * 100))
+
 
 
 
