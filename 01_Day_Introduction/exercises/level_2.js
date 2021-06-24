@@ -45,7 +45,15 @@ console.log(Math.floor(Math.random() * (100 - 50 + 1) + 50));
 // 09- Generate a random number between 0 and 255 inclusively.
 console.log(Math.floor(Math.random() * 255))
 
+// 10- Access the 'JavaScript' string characters using a random number.
+const string = 'JavaScript';
+let randomNumber = Math.floor(Math.random() * string.length)
 
+function generateLetter (){
+     return string.charAt(randomNumber)
 
+}
 
+console.log(randomNumber,' = ', generateLetter())
 
+//Use console.log() and escape characters to print the following pattern.
