@@ -21,6 +21,15 @@ if (parseFloat(number) !== 10) {
     console.log('not equal')
 }
 
+// 05-Check if 'on' is found in both python and jargon
+let wordsTofind = 'python jargon'
+if (wordsTofind.includes('on')) {
+    console.log('it contains')
+}else{
+    console.log('it doens\'t contains')
+}
+
+
 
 
 
