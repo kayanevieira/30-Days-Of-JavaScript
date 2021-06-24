@@ -32,6 +32,11 @@ if (wordsTofind.includes('on')) {
 // 06- Generate a random number between 0 and 100 inclusively
 console.log(Math.floor(Math.random() * 100))
 
+// 07 - Generate a random number between 50 and 100 inclusively.
+console.log(Math.floor(Math.random() * (100 - 50 + 1) + 50));
+
+//Generate a random number between 0 and 255 inclusively.
+
 
 
 
