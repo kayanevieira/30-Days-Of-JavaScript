@@ -11,6 +11,16 @@ if (typeof '10' == 10){
     console.log(typeof Number('10'), 'equal now')
 }
 
+// 04-Check if parseFloat('9.8') is equal to 10 if not make it exactly equal with 10.
+//let floatVar = parseFloat('9.8')
+let number = '9.8';
+
+if (parseFloat(number) !== 10) {
+   console.log(number = 10);
+}else{
+    console.log('not equal')
+}
+
 
 
 
