@@ -6,6 +6,10 @@ for (i = 0; i < numberOfTimes.length; i++){
     console.log(i)
 }
 
+// 02- Use match() to count the number of all because in the following sentence:'You cannot end a sentence with because because because is a conjunction'
+const becauseSentence = 'You cannot end a sentence with because because because is a conjunction'
+const countTime = becauseSentence.match(/because/gi)
+console.log(countTime.length)
 
 
 
