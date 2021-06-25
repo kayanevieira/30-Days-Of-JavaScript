@@ -19,3 +19,12 @@ const perimeterRectangle = (2 * (lengthOf + width))
 
 console.log(`The area of rectangle is ${areaRectangle}`)
 console.log(`The perimeter of rectangle is ${perimeterRectangle}`)
+
+//04- Get radius using prompt and calculate the area of a circle (area = pi x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14.
+const radius = 5 
+const pi = 3.14
+const areaOfCircle = (pi * radius * radius)
+const circumferenceCircle = (2 * pi * radius)
+
+console.log(`The area of a circle is: ${areaOfCircle}`)
+console.log(`The circumference of a circle is: ${circumferenceCircle}`)
