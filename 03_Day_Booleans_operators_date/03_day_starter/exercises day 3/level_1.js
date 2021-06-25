@@ -32,7 +32,7 @@ if (parseInt('9.8') == 10){
 //04- Boolean value is either true or false.
     //01 -Write three JavaScript statement which provide truthy value.
     //02 -Write three JavaScript statement which provide falsy value.
-    
+
 //return true
 const isBigger = 4 > 3;
 const isEqual = 2 == 2;
@@ -41,3 +41,24 @@ const isDifferent = 2 != 3;
 const isBigger2 = 4 < 3;
 const isEqual2 = 2 != 2;
 const isDifferent2 = 2 == 3;
+
+//05- Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it using console.log()
+4 > 3 //true
+4 >= 3 //true
+4 < 3 //false
+4 <= 3 //false
+4 == 4 //true
+4 === 4 //true
+4 != 4 //false
+4 !== 4 //false
+4 != '4'//true
+4 == '4'//true
+4 === '4'//false
+
+//11- Find the length of python and jargon and make a falsy comparison statement.
+const python = 'python';
+const jargon = 'jargon';
+console.log(python.length, jargon.length)
+
+console.log(python.length == 5)
+console.log(python.length != 6)
