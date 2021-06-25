@@ -21,3 +21,10 @@ if (typeof '10' == 10){
 }else{
     console.log("they aren\'t equal")
 }
+
+//Check if parseInt('9.8') is equal to 10
+if (parseInt('9.8') == 10){
+    console.log('it\'s equal')
+}else{
+    console.log('not equal')
+}
