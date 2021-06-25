@@ -16,3 +16,8 @@ console.log(typeof isMarried)
 console.log(typeof year)
 
 //02- Check if type of '10' is equal to 10
+if (typeof '10' == 10){
+    console.log("they are equal")
+}else{
+    console.log("they aren\'t equal")
+}
