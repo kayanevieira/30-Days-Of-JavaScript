@@ -22,9 +22,22 @@ if (typeof '10' == 10){
     console.log("they aren\'t equal")
 }
 
-//Check if parseInt('9.8') is equal to 10
+//03- Check if parseInt('9.8') is equal to 10
 if (parseInt('9.8') == 10){
     console.log('it\'s equal')
 }else{
     console.log('not equal')
 }
+
+//04- Boolean value is either true or false.
+    //01 -Write three JavaScript statement which provide truthy value.
+    //02 -Write three JavaScript statement which provide falsy value.
+    
+//return true
+const isBigger = 4 > 3;
+const isEqual = 2 == 2;
+const isDifferent = 2 != 3;
+//return false
+const isBigger2 = 4 < 3;
+const isEqual2 = 2 != 2;
+const isDifferent2 = 2 == 3;
