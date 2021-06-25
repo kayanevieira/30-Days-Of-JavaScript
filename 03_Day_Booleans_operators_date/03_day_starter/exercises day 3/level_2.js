@@ -10,3 +10,12 @@ const sideB = 10
 const sideC = 5
 const perimeter = (sideA + sideB + sideC);
 console.log(`The perimeter of triangle is: ${perimeter}`)
+
+//03- Get length and width using prompt and calculate an area of rectangle (area = length x width and the perimeter of rectangle (perimeter = 2 x (length + width))
+const lengthOf = 20
+const width = 10
+const areaRectangle = (lengthOf * width)
+const perimeterRectangle = (2 * (lengthOf + width))
+
+console.log(`The area of rectangle is ${areaRectangle}`)
+console.log(`The perimeter of rectangle is ${perimeterRectangle}`)
