@@ -25,3 +25,37 @@ const areaOfCircle = (pi * radius * radius)
 const circumferenceCircle = (2 * pi * radius)
 console.log(`The area of a circle is: ${areaOfCircle}`)
 console.log(`The circumference of a circle is: ${circumferenceCircle}`)*/
+
+/*13- Using prompt get the year the user was born and if the user is 18 or above allow the user to drive if not tell the user to wait a certain amount of years.
+
+Enter birth year: 1995
+You are 25. You are old enough to drive
+
+Enter birth year: 2005
+You are 15. You will be allowed to drive after 3 years.
+
+const yearBirth = prompt("Enter birth year: ")
+const age = (2021 - yearBirth)
+const yearsToAllowed = (18 - age)
+
+if (age >= 18){
+    console.log(`You're ${age}. You are old enough to drive`)
+}else{
+    console.log(`You're ${age}. You will be allowed to drive after ${yearsToAllowed} years`)
+}*/
+
+/*14- Write a script that prompt the user to enter number of years. Calculate the number of seconds a person can live. Assume some one lives just hundred years
+
+
+const numberOfYearsLived = prompt("enter number of years you live:")
+const yearBorn = (2021 - numberOfYearsLived)
+const yearwithQuotesToNewDate = `"${yearBorn}"`
+const birthDate = new Date(yearwithQuotesToNewDate)
+const nowDate = new Date()
+
+if (numberOfYearsLived <= 100){
+    const result = (nowDate.getTime() - birthDate.getTime())
+    const totalLived = (result / 1000)
+    console.log(`You lived ${totalLived} seconds`)
+}*/
+
