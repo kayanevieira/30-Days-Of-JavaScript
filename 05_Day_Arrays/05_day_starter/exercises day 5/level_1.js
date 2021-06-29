@@ -81,3 +81,10 @@ console.log(itCompanies[6].toUpperCase())
 //12- Print the array like as a sentence: Facebook, Google, Microsoft, Apple, IBM,Oracle and Amazon are big IT companies.
 const sentence = itCompanies.slice(0, itCompanies.length - 1).join(', ') + ", and " + itCompanies.slice(-1) + " are IT companies";
 console.log(sentence)
+
+//13- Check if a certain company exists in the itCompanies array. If it exist return the company else return a company is not found
+if (itCompanies.includes('Amazon')){
+    console.log('Amazon')
+}else{
+    console.log('company is not found')
+}
