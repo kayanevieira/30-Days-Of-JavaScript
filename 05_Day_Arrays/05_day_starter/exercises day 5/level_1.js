@@ -9,7 +9,6 @@ exercise1()
  const arr = [
      'javascript',
      'python',
-     'php',
      'java',
      'c#',
      'cobol'
@@ -18,3 +17,10 @@ exercise1()
 
  //03- Find the length of your array
  console.log(arr.length)
+
+ //04- Get the first item, the middle item and the last item of the array
+ const firsItem = arr[0]
+ const middleItem = arr[2]
+ const lastItem = arr[4]
+
+ 
