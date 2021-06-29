@@ -26,6 +26,17 @@ const circumferenceCircle = (2 * pi * radius)
 console.log(`The area of a circle is: ${areaOfCircle}`)
 console.log(`The circumference of a circle is: ${circumferenceCircle}`)*/
 
+//09- Writ a script that prompt a user to enter hours and rate per hour. Calculate pay of the person?
+
+//Enter hours: 40
+//Enter rate per hour: 28
+//Your weekly earning is 1120
+
+/*const hoursWorked = prompt("hours worked: ")
+const ratePerhour = prompt("rate per hour")
+const weeklyEarning = (ratePerhour * hoursWorked)
+console.log(`Your weekly earning is ${weeklyEarning}`)*/
+
 /*13- Using prompt get the year the user was born and if the user is 18 or above allow the user to drive if not tell the user to wait a certain amount of years.
 
 Enter birth year: 1995
