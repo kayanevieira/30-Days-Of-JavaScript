@@ -5,12 +5,14 @@ You are old enough to drive.
 
 Enter your age:15
 You are left with 3 years to drive.*/
+function exerciseOne(){
+    const age = prompt("Enter your age: ")
+    const yearsToBeAllowed = (18 - age)
 
-const age = prompt("Enter your age: ")
-const yearsToBeAllowed = (18 - age)
-
-if (age >= 18){
+    if (age >= 18){
     console.log(`You're ${age}. You are old enough to drive`)
-}else{
+    }else{
     console.log(`You're ${age}. You will be allowed to drive after ${yearsToBeAllowed} years`)
 }
+}
+exerciseOne()
