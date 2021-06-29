@@ -23,4 +23,18 @@ exercise1()
  const middleItem = arr[2]
  const lastItem = arr[4]
 
+ //05- Declare an array called mixedDataTypes, put different data types in the array and find the length of the array. The array size should be greater than 5
+
+ function exercise5(){
+    const arr = [
+        10,
+        '10',
+        true,
+        {firstName: 'kay', lastName: 'vieira'},
+        false,
+        'string'
+    ]
+    console.log(arr.length)
+ }
+exercise5()
  
