@@ -37,4 +37,47 @@ exercise1()
     console.log(arr.length)
  }
 exercise5()
- 
+
+//06- Declare an array variable name itCompanies and assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon
+let itCompanies = [
+    'Facebook',
+    'Google',
+    'Microsoft',
+    'Apple',
+    'IBM',
+    'Oracle',
+    'Amazon'
+]
+//07- Print the array using console.log()
+console.log(itCompanies)
+
+//08- Print the number of companies in the array
+console.log(itCompanies.length)
+
+//09- Print the first company, middle and last company
+console.log(itCompanies[0])
+console.log(itCompanies[3])
+console.log(itCompanies[6])
+
+//10- Print out each company
+console.log(itCompanies[0])
+console.log(itCompanies[1])
+console.log(itCompanies[2])
+console.log(itCompanies[3])
+console.log(itCompanies[4])
+console.log(itCompanies[5])
+console.log(itCompanies[6])
+
+
+//11- Change each company name to uppercase one by one and print them out
+console.log(itCompanies[0].toUpperCase())
+console.log(itCompanies[1].toUpperCase())
+console.log(itCompanies[2].toUpperCase())
+console.log(itCompanies[3].toUpperCase())
+console.log(itCompanies[4].toUpperCase())
+console.log(itCompanies[5].toUpperCase())
+console.log(itCompanies[6].toUpperCase())
+
+//12- Print the array like as a sentence: Facebook, Google, Microsoft, Apple, IBM,Oracle and Amazon are big IT companies.
+const sentence = itCompanies.slice(0, itCompanies.length - 1).join(', ') + ", and " + itCompanies.slice(-1) + " are IT companies";
+console.log(sentence)
