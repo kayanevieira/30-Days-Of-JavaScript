@@ -88,3 +88,18 @@ if (itCompanies.includes('Amazon')){
 }else{
     console.log('company is not found')
 }
+
+//15- Sort the array using sort() method
+console.log(itCompanies.sort())
+
+//16- Reverse the array using reverse() method
+console.log(itCompanies.reverse())
+
+//17- Slice out the first 3 companies from the array
+console.log(itCompanies.slice(-2))
+
+//18- Slice out the last 3 companies from the array
+console.log(itCompanies.slice(0, -3))
+
+//18- Slice out the middle IT company or companies from the array
+console.log(itCompanies.slice(5, 6))
