@@ -83,6 +83,7 @@ const sentence = itCompanies.slice(0, itCompanies.length - 1).join(', ') + ", an
 console.log(sentence)
 
 //13- Check if a certain company exists in the itCompanies array. If it exist return the company else return a company is not found
+
 if (itCompanies.includes('Amazon')){
     console.log('Amazon')
 }else{
@@ -101,5 +102,17 @@ console.log(itCompanies.slice(-2))
 //18- Slice out the last 3 companies from the array
 console.log(itCompanies.slice(0, -3))
 
-//18- Slice out the middle IT company or companies from the array
+//19- Slice out the middle IT company or companies from the array
 console.log(itCompanies.slice(5, 6))
+
+//20- Remove the first IT company from the array
+console.log(itCompanies.slice(0, 1))
+
+//21- Remove the middle IT company or companies from the array
+console.log(itCompanies.slice())
+
+//22- Remove the last IT company from the array
+console.log(itCompanies.pop())
+
+///23- Remove all IT companies
+console.log(itCompanies.slice(0, -6))
