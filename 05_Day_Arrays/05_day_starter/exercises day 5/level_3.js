@@ -24,13 +24,19 @@ for(var i = 0; i < ages.length; i++) {
 }
 let totalAverage = console.log(sum / ages.length)
 //04
-let minNumber = ages.splice(1, 1)
-const maxNumber = ages.splice(-1)
-const numberRage = maxNumber - minNumber
-console.log(numberRage)
-
+function getMaxMin(){
+let minNumber = Math.min.apply(null, ages)
+let maxNumber = Math.max.apply(null, ages)
+let numberRage = maxNumber - minNumber
+return numberRage
+}
+let {maxNumber, minNumber} = getMaxMin()
 //05
-
+if (maxNumber > minNumber){
+    console.log(Math.abs(minNumber - maxNumber))
+}else{
+    console.log("maximum is not greater than minium")
+}
 //01- Slice the first ten countries from the countries array/DONE in countries.js
 //02- Find the middle country(ies) in the countries array/DONE in countries.js
 
