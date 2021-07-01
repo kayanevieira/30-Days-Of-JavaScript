@@ -193,3 +193,23 @@ const countries = [
   'Zambia',
   'Zimbabwe'
 ]
+//01- Slice the first ten countries from the countries array
+const slice10Countries = countries.slice(0, 10)
+console.log(slice10Countries)
+
+
+//02- Find the middle country(ies) in the countries array
+const middle = Math.ceil(countries.length / 2);
+
+
+//03- Divide the countries array into two equal arrays if it is even. If countries array is not even , one more country for the first half.
+let firstHalf = countries.splice(0, middle);
+if (countries % 2 == 0){
+  let firstHalf = console.log(countries.splice(0, middle));
+  let secondHalf = console.log(countries.splice(-middle));
+}else{
+   firstHalf.push('Canada')
+   console.log(firstHalf)
+}
+
+module.exports = { countries };
