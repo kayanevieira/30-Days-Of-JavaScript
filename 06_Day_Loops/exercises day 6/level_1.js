@@ -179,11 +179,13 @@ function exercise12(){
     }
     console.log(`The sum of all evens from 0 to 100 is ${sum}`)
     console.log(`The sum of all odds is ${total}`)
-    let arr = []
-    arr.push(total)
-    console.log(arr)//Trying
-     
+    let arrTotalSum = []
+    arr.push(total, sum)
+    console.log(arr)
 }
+exercise12()
+     
+
 //13- Develop a small script which generate array of 5 random numbers
 function exercise13(){
 for (let i = 0; i <= 5; i++){
@@ -214,4 +216,25 @@ for (let i = 0; i < 6; i++){
 }
 console.log(text)
 }
-idRandom()
+//idRandom()
+
+function exercise12(){
+    let sum = 0
+    let total = 0
+    
+    for (let i = 0; i <= 100; i += 2) {
+        console.log(sum += i);
+      }
+    
+      for (let i = 0; i <= 100; i++){
+        if(i++ % 3 !== 0){
+          console.log(total = total + i)
+        }
+    }
+    console.log(`The sum of all evens from 0 to 100 is ${sum}`)
+    console.log(`The sum of all odds is ${total}`)
+    let arrTotalSum = []
+    arr.push(total, sum)
+    console.log(arr)
+}
+exercise12()
