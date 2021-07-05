@@ -246,7 +246,7 @@ exercise15()
   ]
   for (let i = 0; i < fullStack.length; i++){
     for (let a = 0; a < fullStack[i].length; a++)
-    console.log(fullStack[i][a])
+    console.log(fullStack[i][a].toUpperCase())
   }
 }
 exercise16()
