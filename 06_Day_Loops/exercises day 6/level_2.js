@@ -249,6 +249,7 @@ exercise15()
     console.log(fullStack[i][a])
   }
 }
+exercise16()
   
 
   
