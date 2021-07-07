@@ -67,35 +67,35 @@ console.log(circumOfCircle(10));
 
 //09- Density of a substance is calculated as follows:density= mass/volume. Write a function which calculates density.
 function densityOfSubstance(mass, volume){
-    let density = mass / volume
+    const density = mass / volume
     return density
 }
 console.log(densityOfSubstance(4, 2))
 
 //10- Speed is calculated by dividing the total distance covered by a moving object divided by the total amount of time taken. Write a function which calculates a speed of a moving object, speed.
 function speedMovingObject(distance, time){
-    let speed = distance / time
+    const speed = distance / time
     return speed
 }
 console.log(speedMovingObject(10, 5))
 
 //11- Weight of a substance is calculated as follows: weight = mass x gravity. Write a function which calculates weight.
 function weightCalculator(mass, gravity){
-    let weight = mass * gravity
+    const weight = mass * gravity
     return weight
 }
 console.log(weightCalculator(10, 5))
 
 //12- Temperature in oC can be converted to oF using this formula: oF = (oC x 9/5) + 32. Write a function which convert oC to oF convertCelciusToFahrenheit.
 function convertCelciusToFahrenheit(oC){
-    let oF = (oC * 9 / 5) + 32
+    const oF = (oC * 9 / 5) + 32
     return oF
 }
 console.log(convertCelciusToFahrenheit(5))
 
 //13- Body mass index(BMI) is calculated as follows: bmi = weight in Kg / (height x height) in m2. Write a function which calculates bmi. BMI is used to broadly define different weight groups in adults 20 years old or older.Check if a person is underweight, normal, overweight or obese based the information given below.
 function bmiCalculator(weight, height){
-    let bmi = weight / (height * height)
+    const bmi = weight / (height * height)
     return bmi
 }
 
@@ -136,7 +136,7 @@ checkSeason('January')
 console.log(findMax(0, -10, -2))
 0*/
 function findMax(num1, num2, num3){
-    let result = Math.max(num1, num2, num3)
+    const result = Math.max(num1, num2, num3)
     return result
 }
 console.log(findMax(2, 5, 6))
